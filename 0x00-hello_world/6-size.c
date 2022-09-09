@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Desciptio: main - Prints the sizeof many var types
+ * Desciption: main - Prints the sizeof many var types
  *
  * Return: 0 if Success
  */
