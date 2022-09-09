@@ -1,11 +1,10 @@
 #include <stdio.h>
-
 /**
  * main - Prints the sizeof many var types
  *
  * Return: 0 if Success
  */
-init main(void)
+int main(void)
 {
 	char c;
 	int i;
