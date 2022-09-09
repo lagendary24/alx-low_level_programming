@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print the string in put function
+ * main - Prints the sizeof many var types
  *
  * Return: 0 if Success
  */
