@@ -3,9 +3,7 @@
 /**
  * main - Print the string in put function
  *
- * Description: using the main function
- * this programme prints "Programming is like building a multilingual puzzle
- * Return: 0
+ * Return: 0 if Success
  */
 init main(void)
 {
