@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 if (Success)
  */
 int main(void)
 {
@@ -25,11 +25,10 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			++n2;
+			++n2
 		}
 		++n1
 	}
-	
 	putchar('\n');
 	return (0);
 }
