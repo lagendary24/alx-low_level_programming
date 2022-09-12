@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints single digit numbers starting from 0
+ * main - Prints asingle digit numbers starting from 0
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 if (Success)
  */
 int main(void)
 {
 	int i, j;
 
-	for(i = 0; i < = 9; i++)
+	for(i = 0; i <= 9; i++)
 	{
 		for(j = 1; j <= 9; j++)
 		{
