@@ -5,6 +5,7 @@
  * @c: an integer paramer
  * Return: something but Success
  */
+
 int _isupper(int c)
 {
 
