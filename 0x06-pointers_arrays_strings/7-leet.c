@@ -5,6 +5,7 @@
  * @str: The string to encode
  * Return: The encoded string
  */
+
 char *leet(char *str)
 {
 	int index1 = 0, index2;
