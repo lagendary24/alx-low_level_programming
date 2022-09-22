@@ -23,9 +23,12 @@ char *leet(char *s)
 			{
 				s[a] = n[b];
 			}
+
 			b++
 		}
+
 		a++;
 	}
+
 	return (s);
 }
