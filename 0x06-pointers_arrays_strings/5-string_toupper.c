@@ -1,29 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * cap_string - ...
- * @s: ...
+ * string_toupper - changes all lowercase letters of a string to uppercase
+ * @str: parameterr
  *
- * Return: char value
+ * Return: returns a character
  */
-char *cap_string(char *s)
+char *string_toupper(char *str)
 {
-	int a = 0, i;
-	int cspc = 13;
-	char spc[] = {32, '\t', '\n', 44, ';', 46, '!', '?', '"', '(', ')', '{', '}'};
+	int index = 0;
 
-	while (s[a])
+	while (str[index++])
 	{
-		i = 0;
-
-		while (i < cspc)
-		{
-			if ((a == 0 || s[a - 1] == spc[i]) && (s[a] >= 97 && s[a] <= 122))
-				s[a] -= 32;
-			i++;
-		}
-		a++;
+		if (str[index] >= 'a' && str[index] <= 'z')
+			str[index] -= 32;
 	}
-	return (s);
+
+	return (str);
 }
