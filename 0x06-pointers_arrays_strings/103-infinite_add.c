@@ -22,7 +22,7 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 	{
 		num = (*n1 - '0') + (*n2 - '0');
 		num += tens;
-		*(r + r_imdex) = (num % 10) + '0';
+		*(r + r_index) = (num % 10) + '0';
 
 		tens = num / 10;
 	}
@@ -81,5 +81,5 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	n2 += n2_len - 1;
 	*(r + size_r) = '\0';
 
-	return (add_string(n1, n2, r, --size_r));
+	return (add_strings(n1, n2, r, --size_r));
 }
