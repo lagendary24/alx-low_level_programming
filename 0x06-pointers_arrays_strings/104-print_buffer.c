@@ -7,6 +7,8 @@
  *                then displaying printable characters.
  * @b: The buffer to be printed.
  * @size: The number of bytes to be printed the buffer.
+ * 
+ * Return: void
  */
 void print_buffer(char *b, int size)
 {
