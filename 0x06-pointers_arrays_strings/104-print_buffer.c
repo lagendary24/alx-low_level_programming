@@ -47,7 +47,6 @@ void print_buffer(char *b, int size)
 				printf("%c", *(b + index + byte));
 
 			else
-
 				printf(".");
 		}
 
