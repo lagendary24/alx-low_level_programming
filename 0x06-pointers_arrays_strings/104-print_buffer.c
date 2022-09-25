@@ -23,7 +23,7 @@ void print_buffer(char *b, int size)
 
 	if (size < 0)
 	{
-		int printf('\n');
+		printf("\n");
 		return;
 	}
 
@@ -49,7 +49,7 @@ void print_buffer(char *b, int size)
 			else
 				printf(".");
 		}
-		int printf('\n');
+		printf("\n");
 		i += 10;
 	}
 }
