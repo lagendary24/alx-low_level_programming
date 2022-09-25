@@ -18,7 +18,8 @@
  */
 void print_buffer(char *b, int size)
 {
-	int i = 0,  j;
+	int i = 0;
+	int j = 0;
 
 	if (size < 0)
 	{
