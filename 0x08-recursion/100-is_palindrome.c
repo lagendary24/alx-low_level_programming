@@ -10,7 +10,7 @@ int is_palindrome(char *s)
 {
 	if (*s == "0")
 		return (1);
-	return (check_palindrome(s));
+	return (is_palindrome(s));
 }
 
 /**
@@ -50,5 +50,5 @@ int _strlen_recursion(char *s)
 	}
 
 	s++;
-	return (_strlern_recursion(s) + 1);
+	return (_strlen_recursion(s) + 1);
 }
