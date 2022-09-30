@@ -49,7 +49,7 @@ int wildcmp(char *s1, char *s2)
 	 * finds the address of the first char after the *
 	 * if we reached the end of s2, return 1
 	 * if the chars are equal, add the return values
-	 * of wildcmp() to sumadd the return value of bandersnatch() to sum
+	 * of wildcmp() to sum
 	 * add the return value of bandersnatch() to sum
 	 * convert non-zero to 1, keeps 0 at 0, return
 	 */
